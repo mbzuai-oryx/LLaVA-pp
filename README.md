@@ -54,9 +54,8 @@ The following table provides an overview of the available models in our zoo. For
 | Model Name |                                   Hugging Face Link                                   | Summary |
 |------------|:-------------------------------------------------------------------------------------:|---------|
 | LLaVA-Meta-Llama-3-8B-Instruct-pretrain | [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-pretrain) | Pretrained on [LCS-558K](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain). |
-| LLaVA-Meta-Llama-3-8B-Instruct-lora  |        [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-lora)        | LoRA weights fine-tuned on [LLaVA-Instruct-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K). |
-| 
-LLaVA-Meta-Llama-3-8B-Instruct      |          [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct)           | Merged weights in HuggingFace format. |
+| LLaVA-Meta-Llama-3-8B-Instruct-lora |        [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-lora)        | LoRA weights fine-tuned on [LLaVA-Instruct-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K). |
+| LLaVA-Meta-Llama-3-8B-Instruct      |          [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct)           | Merged weights in HuggingFace format. |
 
 
 # Installation
