@@ -4,14 +4,14 @@
 </p>
 
 #### [Hanoona Rasheed](https://www.hanoonarasheed.com/)\*, [Muhammad Maaz](https://www.muhammadmaaz.com)\*, [Salman Khan](https://salman-h-khan.github.io/), and [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
-\* Equally contributing first authors
+\* Equal contributions
 
-#### **Mohamed bin Zayed University of AI**
+#### **Mohamed bin Zayed University of AI (MBZUAI)**
 
 ---
 
 ## 📢 Latest Updates
-- **Apr-26-24**- Phi-3-V and LLaVA-3-V released: Excited to release the new integration of LLaVA with Phi-3 Mini Instruct and LLaMA-3 Instruct models! 🔥🔥🔥
+- **Apr-26-24**- Phi-3-V and LLaVA-3-V released: Excited to release the new integration of LLaVA with Phi-3 Mini Instruct and LLaMA-3 Instruct models! [Hugging Face](https://huggingface.co/collections/MBZUAI/llava-662b38b972e3e3e4d8f821bb) 🔥🔥🔥
 
 ---
 <p align="center">
@@ -29,25 +29,35 @@ This repository enhances the capabilities of the LLaVA 1.5 model, incorporating 
 
 ### Comparison on Benchmarks for Instruction-following LMMS & academic-task-oriented datasets:
 
-| Model                 | MMMU | POPE |  MME   | MMBench-en | MMBench-cn | SEED-all | SEED-img | SEED-vid | LLaVA-Wild | GQA  | Science-QA | Average  |
-|:----------------------|:----:|:----:|:------:|:----------:|:----------:|:--------:|:--------:|:--------:|:----------:|:----:|:----------:|:--------:|
-| LLaVA-v1.5-7B         | 35.4 | 85.8 | 1510.7 |    64.3    |    58.3    |   58.6   |   66.1   |   37.3   |    65.4    | 62.0 |    66.8    |   58.9   |
-| LLaVA-v1.5-13B        | 36.4 | 85.9 | 1531.3 |    67.7    |    63.6    |   61.6   |   68.2   |   42.7   |    72.5    | 63.3 |    71.6    |   62.3   |
-| **Phi-3-V-mini-3.8B** | 37.8 | 85.6 | 1470.1 |    68.2    |    68.1    |   62.8   |   67.7   |   44.5   |    70.9    | 61.7 |    80.7    | **63.2** |
+| Model                |    MMMU     |    POPE     |      MME      | MMBench-en  | MMBench-cn  |  SEED-all   |  SEED-img   |  SEED-vid   | LLaVA-Wild  |     GQA     | Science-QA  |   Average   |
+|:---------------------|:-----------:|:-----------:|:-------------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+| LLaVA-v1.5-7B        |    35.4     | <u>85.8</u> | <u>1510.7</u> |    64.3     |    58.3     |    58.6     |    66.1     |    37.3     |    65.4     | <u>62.0</u> |    66.8     |    60.0     |
+| LLaVA-v1.5-13B       |    36.4     |  **85.9**   |  **1531.3**   | <u>67.7</u> |  **63.6**   | <u>61.6</u> | <u>68.2</u> | <u>42.7</u> |  **72.5**   |  **63.3**   |    71.6     | <u>63.3</u> |
+| **LLaMA-3-V-8B**     | <u>37.1</u> |    84.2     |    1441.1     |    67.0     |    57.8     |  **62.8**   |  **68.6**   |    41.1     |    66.2     |    61.9     | <u>78.6</u> |    62.5     |
+| **Phi-3-V-3.8B**     |  **37.8**   |    85.6     |    1470.1     |  **68.2**   | <u>58.5</u> |  **62.8**   |    67.7     |  **44.5**   | <u>70.9</u> |    61.7     |  **80.7**   |  **63.8**   |
+- Average computed excluding MME, and second-best are underlined.
 
-🌟 LLaMA-3-V-8B results and models - coming soon!
+🌟 LLaMA-3-V-8B full fine-tuning results - coming soon!
 
-*Average computed excluding MME
+
 
 ## 🤖 Model-Zoo
 
 The following table provides an overview of the available models in our zoo. For each model, you can find links to its Hugging Face page. 
 
-|                            Model Name |                             Hugging Face Link                              |                                                                                                           Summary |
-|--------------------------------------|:--------------------------------------------------------------------------:|------------------------------------------------------------------------------------------------------------------|
-| LLaVA-Phi-3-mini-4k-instruct-pretrain | [HF](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct-pretrain)  |                              Pretrained on [LCS-558K](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain). |
-|     LLaVA-Phi-3-mini-4k-instruct-lora |   [HF](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct-lora)    |  LoRA weights fine-tuned on [LLaVA-Instruct-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) 
-|          LLaVA-Phi-3-mini-4k-instruct |      [HF](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct)      |                                                                             Merged weights in HuggingFace format. |
+| Model Name |                             Hugging Face Link                              | Summary |
+|------------|:--------------------------------------------------------------------------:|---------|
+| LLaVA-Phi-3-mini-4k-instruct-pretrain | [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct-pretrain)  | Pretrained on [LCS-558K](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain). |
+| LLaVA-Phi-3-mini-4k-instruct-lora  |   [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct-lora)    | LoRA weights fine-tuned on [LLaVA-Instruct-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K). |
+| LLaVA-Phi-3-mini-4k-instruct       |      [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct)      | Merged weights in HuggingFace format. |
+
+| Model Name |                                   Hugging Face Link                                   | Summary |
+|------------|:-------------------------------------------------------------------------------------:|---------|
+| LLaVA-Meta-Llama-3-8B-Instruct-pretrain | [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-pretrain) | Pretrained on [LCS-558K](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain). |
+| LLaVA-Meta-Llama-3-8B-Instruct-lora  |        [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-lora)        | LoRA weights fine-tuned on [LLaVA-Instruct-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K). |
+| 
+LLaVA-Meta-Llama-3-8B-Instruct      |          [Hugging Face](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct)           | Merged weights in HuggingFace format. |
+
 
 # Installation
 
@@ -95,8 +105,10 @@ To integrate LLaMA-3-V with LLaVA, follow these steps to update the codebase:
 
 ```bash
 # Copy necessary files
-cp Phi-3-V/train.py LLaVA/llava/train/train.py
-cp Phi-3-V/conversation.py LLaVA/llava/conversation.py
+cp LLaMA-3-V/train.py LLaVA/llava/train/train.py
+cp LLaMA-3-V/conversation.py LLaVA/llava/conversation.py
+cp LLaMA-3-V/builder.py LLaVA/llava/model/builder.py
+cp LLaMA-3-V/llava_llama.py LLaVA/llava/model/language_model/llava_llama.py
 
 # Training commands
 cp scripts/LLaMA3-V_pretrain.sh LLaVA/LLaMA3-V_pretrain.sh
@@ -118,6 +130,8 @@ bash LLaMA3-V_finetune_lora.sh
 ---
 ## 🙏 Acknowledgement
 We are thankful to [LLaVA](https://github.com/haotian-liu/LLaVA.git), and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval.git) for releasing their models and code as open-source contributions.
+
+In case if you face any issues or have any questions, please feel free to create an issue or reach out at [hanoona.bangalath@mbzuai.ac.ae](hanoona.bangalath@mbzuai.ac.ae) & [muhammad.maaz@mbzuai.ac.ae](muhammad.maaz@mbzuai.ac.ae).
 
 ---
 [<img src="images/logos/IVAL_logo.png" width="200" height="100">](https://www.ival-mbzuai.com)
