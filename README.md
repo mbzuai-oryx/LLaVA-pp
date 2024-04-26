@@ -23,6 +23,9 @@ This repository enhances the capabilities of the LLaVA 1.5 model, incorporating 
 
 
 ## 🏆 Results: Phi-3-V and LLaVA-3-V
+<p align="center">
+  <img src="images/lava++_radar_plot.png" width="450">
+</p>
 
 ### Comparison on Benchmarks for Instruction-following LMMS & academic-task-oriented datasets:
 
