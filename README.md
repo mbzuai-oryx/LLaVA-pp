@@ -13,7 +13,7 @@
 ---
 
 ## 📢 Latest Updates
-- ***Apr-27-24*- Google Colab is released to chat with Phi-3-V-3.8B model, check it out at [Google Colab](https://colab.research.google.com/drive/10Z2HaY5zvy2GZZ4v245PtiDPukm0NbF6?usp=sharing) 🔥🔥🔥
+- **Apr-27-24**- Google Colab is released to chat with Phi-3-V-3.8B model, check it out at [Google Colab](https://colab.research.google.com/drive/10Z2HaY5zvy2GZZ4v245PtiDPukm0NbF6?usp=sharing) 🔥🔥🔥
 - **Apr-26-24**- Phi-3-V and LLaVA-3-V released: Excited to release the new integration of LLaVA with Phi-3 Mini Instruct and LLaMA-3 Instruct models! [Hugging Face](https://huggingface.co/collections/MBZUAI/llava-662b38b972e3e3e4d8f821bb) 🔥🔥🔥
 
 ---
