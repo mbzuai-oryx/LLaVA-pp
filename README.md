@@ -10,10 +10,13 @@
 
 [![Google](https://img.shields.io/badge/Google-Colab-red)](https://colab.research.google.com/drive/10Z2HaY5zvy2GZZ4v245PtiDPukm0NbF6?usp=sharing)
 [![Demo](https://img.shields.io/badge/Online-Demo-F9D371)](https://bengal-eminent-wasp.ngrok-free.app)
+[![Demo](https://img.shields.io/badge/HF_Demo-LLaMA_3-0FFFFF.svg)](https://huggingface.co/spaces/MBZUAI/LLaMA-3-V)
+[![Demo](https://img.shields.io/badge/HF_Demo-Phi_3-0FFFFF.svg)](https://huggingface.co/spaces/MBZUAI/Phi-3-V)
 
 ---
 
 ## 📢 Latest Updates
+- **Apr-30-24**- LLaMA-3-V and Phi-3-V demos are now available via Hugging Face Spaces. Check them out at [LLaMA-3-V](https://huggingface.co/spaces/MBZUAI/LLaMA-3-V) &  [Phi-3-V](https://huggingface.co/spaces/MBZUAI/Phi-3-V) 🔥🔥🔥
 - **Apr-28-24**- Online demo of Phi-3-V and LLaMA-3-V are released, check them out at [Online Demo](https://bengal-eminent-wasp.ngrok-free.app) 🔥🔥🔥
 - **Apr-28-24**- LoRA, fully fine-tuned and [S<sup>2</sup>](https://github.com/bfshi/scaling_on_scales.git) fine-tuned models and results are added! 🔥🔥🔥
 - **Apr-27-24**- Google Colab is released to chat with Phi-3-V-3.8B model, check it out at [Google Colab](https://colab.research.google.com/drive/10Z2HaY5zvy2GZZ4v245PtiDPukm0NbF6?usp=sharing) 🔥🔥🔥
