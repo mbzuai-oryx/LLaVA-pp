@@ -3,7 +3,7 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Models">
 </p>
 
-#### [Hanoona Rasheed](https://www.hanoonarasheed.com/)\*, [Muhammad Maaz](https://www.muhammadmaaz.com)\*, [Salman Khan](https://salman-h-khan.github.io/), and [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
+#### [Hanoona Rasheed](https://www.hanoonarasheed.com/)\*, [Muhammad Maaz](https://www.mmaaz60.com)\*, [Salman Khan](https://salman-h-khan.github.io/), and [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
 \* Equal contributions
 
 #### **Mohamed bin Zayed University of AI (MBZUAI)**
