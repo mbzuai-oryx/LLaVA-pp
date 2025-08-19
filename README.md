@@ -28,7 +28,7 @@
 </p>
 
 ## 💬 Introduction
-This repository enhances the capabilities of the LLaVA 1.5 model, incorporating latest LLMs released this weak🔥, [Phi-3 Mini Instruct 3.8B](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [LLaMA-3 Instruct 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B).
+This repository enhances the capabilities of the LLaVA 1.5 model, incorporating latest LLMs released this week🔥, [Phi-3 Mini Instruct 3.8B](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [LLaMA-3 Instruct 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B).
 
 
 ## 🏆 Results: Phi-3-V and LLaVA-3-V
